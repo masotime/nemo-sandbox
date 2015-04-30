@@ -1,0 +1,15 @@
+{
+  "name": "nemo-sandbox",
+  "version": "1.0.0",
+  "description": "Make Nemo work with Selenium Grid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "remote": "SELENIUM_REMOTE_URL=\"http://localhost:4444/wd/hub\" node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nemo": "^1.0.4"
+  }
+}
